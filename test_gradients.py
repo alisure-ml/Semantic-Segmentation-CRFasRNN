@@ -3,6 +3,7 @@ import tensorflow as tf
 from tensorflow.python.ops import gradient_checker
 from tensorflow.python.framework import constant_op
 from tensorflow.python.framework import ops
+
 custom_module = tf.load_op_library('./cpp/high_dim_filter.so')
 
 
